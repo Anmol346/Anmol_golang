@@ -1,4 +1,6 @@
+name:sample_workflows
 on:
+  :push
   workflow_call:
     inputs:
       username:
